@@ -412,11 +412,24 @@ main {
 .item-plus__text {
     font-size: 24px;
 }
-.middle-block__item {
+.middle-block__info-tshirt {
+    padding-top: 100px;  
+
 }
-.middle-block__item {
+.info-tshirt{
+
 }
 
+.info-tshirts__info-text {
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.info-text {
+    font-size: 36px;
+    font-weight: 700;
+    padding-right: 10px;
+}
 /* home-page__middle-block============================================================== */
 @media (max-width: 992px){
     .middle-block__column {
@@ -432,11 +445,18 @@ main {
     .item-plus__text {
         font-size: 30px;
     }
+    .info-text {
+        font-size: 40px;
+    }
 }
 
 @media (max-width: 479px) {
+    .middle-block__info-tshirt {
+        padding-top: 50px;  
+    
+    }
     .middle-block__column {
-        flex: 0 1 100%;
+        /* flex: 0 1 100%; */
     }
     .item-plus__title {
         font-size: 42px;
@@ -445,10 +465,96 @@ main {
     .item-plus__text {
         font-size: 28px;
     }
+    .info-text {
+        font-size: 44px;
+    }
 }
 
 /* main============================================================== */
 /* footer============================================================== */
 .footer{
+    background-color:rgb(22, 16, 16);
+    color:white;
+    padding: 25px 15px;
+}
 
+.footer__container {
+}
+._container {
+}
+.footer__info {
+}
+.footer-info {
+    font-size: 34px;
+    line-height: 170%;
+}
+.footer__columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-columns {
+}
+.footer-columns__item {
+    flex: 0 1 33%;
+}
+.footer-columns__item:not(:last-child){
+    margin: 0 5px 10px 0;
+}
+.footer-item {
+}
+.footer-item__text {
+    color: white;
+    font-size: 28px;
+    line-height: 120%;
+}
+
+.footer-logo-vk {
+    width: 32px;
+    height: 32px;
+
+}
+.vk {
+    background-color:white;
+    width: 32px;
+    height: 32px;
+    
+}
+.footer-logo-inst {
+    width: 32px;
+    height: 32px;
+}
+.inst {
+    background-color:white;
+    width: 32px;
+    height: 32px;
+}
+
+@media (max-width: 1058px){
+  
+
+}
+@media (max-width: 992px){
+    .footer-columns__item {
+        flex: 0 1 33%;
+    }
+    .footer-item__text {
+        font-size: 32px;
+    }
+}
+@media (max-width: 718px){
+    .footer-columns__item {
+        flex: 0 1 100%;
+    }
+    .footer-item__text {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 479px) {
+    .footer-item__text {
+        font-size: 36px;
+    }
+    .footer-columns__item {
+        flex: 0 1 100%;
+    }
 }
