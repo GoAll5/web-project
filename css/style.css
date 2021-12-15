@@ -78,7 +78,9 @@ body{
     display: flex;
     min-width: 80px;
     align-items: center;
+    border-radius: 0 0 20px 20px;
     /*justify-content: space-between; */
+    background: linear-gradient(124.34deg, #ffc941f3 11.55%, #f4a938f8 79.65%);
 }
 
 .header__logoImg{
@@ -157,6 +159,9 @@ body{
 }
 .basketFull {
 
+}
+.header__price:hover{
+    font-weight: 600
 }
 .header__price {
     line-height: 150%;
@@ -563,15 +568,20 @@ main {
 
 .list-page{
     flex: 1 0 100%;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
 }
 
 .list-page__list-block {
     /* background: linear-gradient(124.34deg, #FFCA41 11.55%, #F4A938 79.65%); */
-    background-color: rgba(177, 177, 177, 0.486);
+    /* background-color: rgba(177, 177, 177, 0.486); */
     /* background: linear-gradient(45deg, #EECFBA, #C5DDE8); */
+    /* background: linear-gradient(45deg, #EECFBA, #C5DDE8);
     background-repeat: no-repeat;
     width: 100%;
-    height: 100%;
+    height: 100%; */
 }
 
 .list-block {
@@ -665,4 +675,77 @@ main {
 
 .minus {
     padding-top: 10px;
+}
+
+.my_button:hover{
+    font-weight: 700;
+}
+
+.my_button {
+    font-size: 16px;
+    font-weight: 500;
+    min-width: 125px;
+    min-height: 50px;
+    border-radius: 25px;
+    background: linear-gradient(124.34deg, #FFCA41 11.55%, #F4A938 79.65%);
+    margin: 10px 50px;
+}
+
+.buttons {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.list-block__body h3 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+
+.text-body {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 15px;
+    font-size: 24px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+
+outline: none;
+}
+
+
+.registerbtn {
+    font-size: 24px;
+    background-color: green;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.8;
+    border-radius: 15px;
+}
+
+.registerbtn:hover {
+    opacity:1;
+}
+
+a {
+    color: rgb(0, 128, 255);
+    font-weight: 500;
+}
+
+.signin {
+    text-align: center;
 }

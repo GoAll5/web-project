@@ -25,7 +25,7 @@
                     <img src="../iconsvg/logo.svg" class="basketFull">
                 </a>
                 <a href="../index.html" class="header__logo">
-                    Homie<br/>T-shirts
+                    Homie<br />T-shirts
                 </a>
 
                 <nav class="header__menu menu">
@@ -33,7 +33,7 @@
                         <li class="menu__item">
                             <a href="../index.html" class="menu__link">Главная</a>
                         </li>
-                        <li class="menu__item active">
+                        <li class="menu__item">
                             <a href="./list.html" class="menu__link">Футболки</a>
                         </li>
                         <li class="menu__item about_service">
@@ -44,14 +44,14 @@
                         </li>
                     </ul>
                 </nav>
-                <a href="./entrance.html" class="header__entrance">
-                    Войти
+                <a href="./entrance.html" class="header__entrance active">
+                    <b>Войти</b>
                 </a>
                 <a href="./basket.html" class="header__basket">
                     <img src="../iconsvg/basket-full.svg" class="basketFull">
                 </a>
                 <a href="./basket.html" class="header__price">
-                    0 руб.
+                    0 руб
                 </a>
                 <a href="" class="header__arrow">
                     <img src="../iconsvg/arrow-down.svg" class="arrowDown">
@@ -64,49 +64,33 @@
             <div class="list-page__list-block list-block">
                 <div class="list-block__container _container">
                     <div class="list-block__body">
+                        <form class="form">
+                            <div>
+                                <h3 style="text-align: center;">Регистрация</h3>
+                                <p class="text-body" style="margin-bottom:40px; text-align: center;">Пожалуйста, заполните форму чтобы создать аккаунт.</p>
 
-                        <div id="list-items">
-                            <!-- <div class="list-item">
-                                <div class="list-item__tittle">fsadfdasfasfdasfd sa fdsf asfsafsfgvdgfd gsg fdg dsg beatae ad facilis cum similique qui sunt</div>
-                                    <div class="list-item__image">
-                                        <img src="https://via.placeholder.com/600/92c952" alt="" class="list-image">
-                                    </div>
-                                <div class="list-item__price">1</div>
-                                <div class="list-item__basket">
-                                    <div class="list-item__minus-container">
-                                        <div class="list-item__minus">
-                                            <div class="plus">-</div>
-                                        </div>
-                                    </div>
-                                    <div class="list-item__plus-container">
-                                        <div class="list-item__plus">
-                                            <div class="minus">+</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-                            <div style="width: 500px; height: 500px; margin: 0 auto;">
-                                <img src="../img/gif/best_cat.gif" alt="" style="width: 100%; border-radius: 50%;">
+                                <b style="padding-left: 15px; font-size: 24px;">Почта</b>
+                                <input id="email" type="text" placeholder="Введите Email" required="required">
+
+                                <b style="padding-left: 15px; font-size: 24px;">Пароль</b>
+                                <input id="password" type="password" placeholder="Введите пароль" required="required">
+
+                                <button id="reg_button" type="submit" class="registerbtn">Зарегестрироваться</button>
                             </div>
-                           
-                        </div>
-                        <div>
-                            <div class="buttons">
-                                <div><button id="back" class="my_button">Назад</button>
-                                    <button id="forward" class="my_button">Вперед</button>
-                                </div>
-                                
+
+                            <div class="container signin">
+                                <p>Уже есть аккаунт? <a href="#">Войти.</a></p>
                             </div>
-                        </div>
-                    </div> 
+                        </form>
+                    </div>
                 </div>
             </div>
-            
+
         </main>
         <footer class="footer">
             <div class="footer__container _container">
                 <div class="footer__info footer-info">
-                     Связь с нами
+                    Связь с нами
                 </div>
                 <div class="footer__columns footer-columns">
                     <div class="footer-columns__item footer-item">
@@ -129,12 +113,12 @@
                     </div>
                 </div>
             </div>
-            
+
         </footer>
     </div>
     <script src="../js/script.js"> </script>
-    <script src="../js/list.js"> </script>
-    
+    <script src="../js/register.js"> </script>
+
 </body>
 
 </html>
